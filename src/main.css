@@ -1,14 +1,54 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* Fonts */
+@font-face {
+  font-family: Navbar;
+  src: url("./assets/ShadowsIntoLight-Regular.ttf");
+}
 
-  color-scheme: light dark;
-  color: #000;
+.title {
+  font-size: 25px;
+}
+
+.title--big {
+  font-size: 35px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+:root {
+  color: var(--cor-primaria);
   background-color: #fff;
 
-  font-synthesis: none; /* Impede que o navegador crie estilos falsos de negrito ou itálico se a fonte não os fornecer.*/
+  /* Navegadores */
+  /* font-synthesis: none; /* Impede que o navegador crie estilos falsos de negrito ou itálico se a fonte não os fornecer.*/
   text-rendering: optimizeLegibility; /* Otimiza a renderização do texto */
   -webkit-font-smoothing: antialiased; /* Suavização de fontes (Safari, Chrome, Opera...) */
   -moz-osx-font-smoothing: grayscale; /* Suavização de fontes (firefox, Tor, Waterfox...) */
+
+  /* Paleta de Cores */
+  --cor-primaria: #000000;
+  --cor-secundaria: #505050;
+  --cor-destaque: #451776;
+  --cor-texto: #000000;
+  --cor-fundo: #fff;
+}
+
+.text-center {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
 }

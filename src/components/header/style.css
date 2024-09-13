@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  text-align: center;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 80px;
+}
+
+.item {
+  font-family: "Navbar", cursive;
+  padding: 2px 10px;
+  background-color: var(--cor-primaria);
+  margin: 1px;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--cor-fundo);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.item:hover {
+  color: var(--cor-secundaria);
+  cursor: pointer;
+}
+
+.active {
+  text-transform: uppercase;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  color: var(--cor-secundaria);
+}

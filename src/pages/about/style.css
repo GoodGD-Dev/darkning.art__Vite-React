@@ -1,0 +1,8 @@
+.aboutTitle {
+  margin-bottom: 20px;
+}
+.aboutContent {
+  columns: 200px 1;
+  column-gap: 30px;
+  padding: 20px;
+}

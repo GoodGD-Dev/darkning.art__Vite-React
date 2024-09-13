@@ -9,3 +9,4 @@ O formato segue o padrão [Keep a Changelog](https://keepachangelog.com/), e est
 ### Added
 
 - Feito setup do projeto.
+- Clonado site antigo da Darkning.art e alterado para React.
