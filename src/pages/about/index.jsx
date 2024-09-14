@@ -1,15 +1,15 @@
 import "./style.css";
 
+const aboutTitle = "Teste";
+const aboutText = "exemplo 1 2 3.";
+
 function About() {
   return (
     <div className="container">
       <section>
-        <h2 className="aboutTitle">Teste</h2>
+        <h2 className="aboutTitle">{aboutTitle}</h2>
         <p className="aboutContent">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          asperiores magni dicta dolor animi nisi deleniti aperiam eligendi
-          doloremque ullam in consequatur laborum quod quos molestias culpa,
-          veritatis molestiae blanditiis.
+          {aboutText}
         </p>
     </section>
     </div>
