@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from 'prop-types'; // Importando PropTypes
 import "./style.css";
 import logoDark from "../../assets/logo.png";
 
@@ -30,5 +30,11 @@ function Header({ activeSection, setActiveSection }) {
     </header>
   );
 }
+
+// Adicionando a validação de tipos das props
+Header.propTypes = {
+  activeSection: PropTypes.string.isRequired,
+  setActiveSection: PropTypes.func.isRequired,
+};
 
 export default Header;
