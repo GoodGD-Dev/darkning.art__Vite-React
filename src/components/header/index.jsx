@@ -8,13 +8,13 @@ function Header({ activeSection, setActiveSection }) {
   return (
     <header className="header">
       <div className="container">
-        <div className="logo">
+        <div className="logo" data-aos="fade-down" data-aos-delay="200">
           <h1>
             <img src={logoDark} alt="Darkning.art logo" />
           </h1>
         </div>
         <nav>
-          <ul className="navbar">
+          <ul className="navbar" data-aos="fade-up" data-aos-delay="400">
             {navBotoes.map((item) => (
               <li
                 key={item}
